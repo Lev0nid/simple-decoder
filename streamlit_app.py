@@ -2,7 +2,7 @@ import streamlit as st
 import process
 
 st.title("Simple Decoder by Lev0nid")
-st.write("Simple decoding app by Lev0nid. Made for fun. Can decode lower case Russian letters.")
+st.write("Simple decoding app by Lev0nid to showoff my sick programming skills lol. Made for fun. Can decode lower case Russian letters.")
 
 form = st.form('input_text_form')
 text = form.text_area('Input text to get your text decoded')
